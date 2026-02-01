@@ -1,0 +1,17 @@
+{
+  "name": "fernando-website",
+  "version": "1.0.0",
+  "description": "Website pessoal do escritor Fernando",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build completed - static files ready'",
+    "dev": "npx serve -s . -p 3000",
+    "optimize": "echo 'Optimizing images and assets...'"
+  },
+  "keywords": ["website", "portfolio", "escritor", "fernando"],
+  "author": "Fernando",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
